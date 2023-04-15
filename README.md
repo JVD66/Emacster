@@ -31,8 +31,9 @@ the status of those running instances , query their buffer lists, etc.
 Emacster will detect when  Multiple Users are editing the same buffer and will make the Shared Emacs
 Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
 
-If Emacs+Termux (Android) or Emacs+MSYS2 (Windows) or Emacs (UNIX) is not installed, Emacster
-will provide a GUI to guide their Installation.
+If Dependencies: Emacs+Termux (Android) or Emacs+MSYS2 (Windows) or Emacs (UNIX), or lib${X}WebKit 
+or libssh2 or libxml2 or bash shell or coreutils or tar / grep / sed / xz is not installed, 
+Emacster will provide a GUI to guide their Installation.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
