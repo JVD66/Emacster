@@ -1,5 +1,5 @@
 # Emacster
-batch mode Emacs Multiple Session Manager + Android Termux Emacs,  GUI :
+Emacs Multiple Session Manager + Android Termux Emacs  GUI :
  **Emacster**: Master / Manager of many Emacs&apos;s .
 
 Emacs can be asked to start a Server that listens on either a local UNIX
