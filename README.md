@@ -31,9 +31,16 @@ the status of those running instances , query their buffer lists, etc.
 Emacster will detect when  Multiple Users are editing the same buffer and will make the Shared Emacs
 Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
 
-If Dependencies: Emacs+Termux (Android) or Emacs+MSYS2 (Windows) or Emacs (UNIX), or lib${X}WebKit 
+If Dependencies: Emacs+Termux + picolisp (Android) or Emacs+MSYS2 + SBCL (Windows) or 
+Emacs + SBCL (UNIX), or lib${X}WebKit 
 or libssh2 or libxml2 or OpenSSL or bash shell or coreutils or tar / grep / sed / xz is not installed, 
-Emacster will provide a GUI to guide their Installation.
+Emacster will provide a FLTK GUI to guide their Installation.
+
+On Linux, Emacster will be written mainly in ELISP + picolisp (with a C/C++ Library), on Windows 
+or other UNIX, picolisp will be replaced by SBCL Common LISP,  and 
+on all platforms Emacster will use [FLTK](https://fltk.org/)  for its GUI components, however on Android
+there will be an Android Java/Kotlin GUI Shell, and on Linux also it will use my SBCL Common LISP 
+ [McCLIM](https://github.com/McCLIM/McCLIM) FLTK port work .
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
