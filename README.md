@@ -46,4 +46,5 @@ common C/C++ library, **libEmacsSter.so**, buildable on all platforms .
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
 HTTPD / HTTPS/TCP/(((TLS+SSL) or VPN) socket) or HTTP/(UNIX-domain socket) server, and full
-integration with GIT and automatic SCM management of edited files. 
+integration with GIT and automatic SCM management of multi-user edited files, and a Chat Message facility
+with Teams or Google Chat / WebRTC integration for users who have buffers of the same file loaded.
