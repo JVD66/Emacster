@@ -29,7 +29,7 @@ is installed, to enable WYSIWYG HTML5 Editing , and which is able to start up / 
 the status of those running instances , query their buffer lists, etc.
 
 Emacster will detect when  Multiple Users are editing the same buffer and will make the Shared Emacs
-Session use Locking to permit safe multiple user editing sessions.
+Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
