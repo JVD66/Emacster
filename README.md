@@ -37,4 +37,5 @@ Emacster will provide a GUI to guide their Installation.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
-HTTPD / HTTPS/TCP/(((TLS+SSL) or VPN) socket) or HTTP/(UNIX-domain socket) server.
+HTTPD / HTTPS/TCP/(((TLS+SSL) or VPN) socket) or HTTP/(UNIX-domain socket) server, and full
+integration with GIT and automatic SCM management of edited files. 
