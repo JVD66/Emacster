@@ -32,9 +32,9 @@ Emacster will detect when  Multiple Users are editing the same buffer and will m
 Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
 
 If Dependencies: Emacs+Termux + picolisp (Android) or Emacs+MSYS2 + SBCL (Windows) or 
-Emacs + SBCL (UNIX), or lib${X}WebKit 
+Emacs + [SBCL](https://sbcl.org) (UNIX), or lib${X}WebKit 
 or libssh2 or libxml2 or OpenSSL or bash shell or coreutils or tar / grep / sed / xz is not installed, 
-Emacster will provide a FLTK GUI to guide their Installation.
+Emacster will provide a [FLTK](https://fltk.org) GUI to guide their Installation.
 
 On Linux, Emacster will be written mainly in ELISP + picolisp (with a C/C++ Library), on Windows 
 or other UNIX, picolisp will be replaced by SBCL Common LISP,  and 
