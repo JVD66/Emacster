@@ -19,9 +19,9 @@ it in Batch Mode on demand.
 
 **Emacster** provides the ability to issue  local or remote Termux/bash or Bash Shell
 or SSH commands to start up Emacs Servers in Batch Mode on demand, OR to issue 
-commands to existing local or remote SSH connected devices over UNIX or TCP 
-sockets, managing public key  generation and exchange for remote hosts differently
-for different supported platforms (Linux / UNIX , with **libssh2** for Linux / Android / Windows),
+commands to existing local or remote SSH connected devices running Emacs Servers
+over UNIX or TCP  sockets, managing public key  generation and exchange for remote hosts differently
+for different supported platforms with **libssh2** and **OpenSSL** for (Linux / Android / Windows),
 to start up and Manage Emacs sessions, and to send Emacs Lisp (ELISP) expressions that 
 create / destroy / modify (Edit)  Emacs Buffers in those instances, and can Display
 lists of Buffers, Buffers, and WebKit HTML Renderings of HTML Buffers, if **lib${X}WebKit**
@@ -32,7 +32,7 @@ Emacster will detect when  Multiple Users are editing the same buffer and will m
 Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
 
 If Dependencies: Emacs+Termux (Android) or Emacs+MSYS2 (Windows) or Emacs (UNIX), or lib${X}WebKit 
-or libssh2 or libxml2 or bash shell or coreutils or tar / grep / sed / xz is not installed, 
+or libssh2 or libxml2 or OpenSSL or bash shell or coreutils or tar / grep / sed / xz is not installed, 
 Emacster will provide a GUI to guide their Installation.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
