@@ -28,6 +28,9 @@ lists of Buffers, Buffers, and WebKit HTML Renderings of HTML Buffers, if **lib$
 is installed, to enable WYSIWYG HTML5 Editing , and which is able to start up / shutdown / query
 the status of those running instances , query their buffer lists, etc.
 
+Emacster will detect when  Multiple Users are editing the same buffer and will make the Shared Emacs
+session use Locking to permit safe multiple user editing sessions.
+
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
 HTTPD / HTTPS/TCP/(((TLS+SSL) or VPN) socket) or HTTP/(UNIX-domain socket) server.
