@@ -30,4 +30,4 @@ the status of those running instances , query their buffer lists, etc.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
-HTTPD / HTTPS TCP+TLS+SSL or HTTP UNX-domain socket server.
+HTTPD / HTTPS/TCP/(((TLS+SSL) or VPN) socket) or HTTP/(UNIX-domain socket) server.
