@@ -13,7 +13,7 @@ and Emacs can also listen on a TCP socket for Elisp code to run, and of course
 on ("UNIX" : (Linux / BSD / Solaris / AIX ...)) POSIX platforms, 
 Emacs can be run natively without a bash shell or other environment being necessary.
 It would also be possible for an Android or Windows GUI application to Depend On
-Termux and Termux Emacs being installed (Android), or on Emacs for Window being
+Termux and Termux Emacs being installed (Android), or on Emacs for Windows being
 installed (Windows), or on just native Emacs being installed (Linux/UNIX), and to run
 it in Batch Mode on demand.
 
@@ -30,6 +30,9 @@ the status of those running instances , query their buffer lists, etc.
 
 Emacster will detect when  Multiple Users are editing the same buffer and will make the Shared Emacs
 Session use Locking and Guided Patch Merging to permit safe multiple user editing sessions.
+
+If Emacs+Termux (Android) or Emacs+MSYS2 (Windows) or Emacs (UNIX) is not installed, Emacster
+will provide a GUI to guide their Installation.
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
