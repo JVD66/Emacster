@@ -36,11 +36,12 @@ Emacs + [SBCL](https://sbcl.org) (UNIX), or lib${X}WebKit
 or libssh2 or libxml2 or OpenSSL or bash shell or coreutils or tar / grep / sed / xz is not installed, 
 Emacster will provide a [FLTK](https://fltk.org) GUI to guide their Installation.
 
-On Linux, Emacster will be written mainly in ELISP + picolisp (with a C/C++ Library), on Windows 
-or other UNIX, picolisp will be replaced by SBCL Common LISP,  and 
+On Linux, Emacster will be written mainly in ELISP + [picolisp](https://picolisp.com) ,with a C/C++ Library,
+on Windows or other UNIX, picolisp will be replaced by SBCL Common LISP,  and 
 on all platforms Emacster will use [FLTK](https://fltk.org/)  for its GUI components, however on Android
 there will be an Android Java/Kotlin GUI Shell, and on Linux also it will use my SBCL Common LISP 
- [McCLIM](https://github.com/McCLIM/McCLIM) FLTK port work .
+ [McCLIM](https://github.com/McCLIM/McCLIM) FLTK port work ; all these will be based around a 
+common C/C++ library, **libEmacsSter.so**, buildable on all platforms .
 
 A future extension will be a full-featured 'EmacsterHTTPD' implementation that uses **eww** to display
 HTML5 and Mule Forms and provides CGI / HTML Submit Button processing support to provide a simple
